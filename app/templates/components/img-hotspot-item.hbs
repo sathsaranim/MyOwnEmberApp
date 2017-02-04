@@ -1,0 +1,20 @@
+{{yield}}
+<h5>Thi is img-hotspot-element component</h5>
+<div class="row">
+  <div class="{{if isWide "col-md-12" "col-md-4"}}">
+    <div class="{{if isWide "" "thumbnail" }}">
+        <img src="assets/images/engine-016.jpg" usemap="#Map"
+         alt="Lights" style="width:100%">
+      <a href="" {{action 'toggleimageSize'}}>
+        <div class="caption">
+          <p>{{if isWide "View thumbnail" "View Larger"}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<map name="Map" id="Map" >
+    <area  alt="" title="" href="#" shape="poly" coords="237,522,221,531,214,543,210,558,207,577,207,595,213,619,218,639,223,653,230,665,237,678,241,685,249,695,262,705,270,711,283,719,297,719,313,719,321,715,330,703,337,687,341,659,341,635,333,613,325,589,311,563,298,549,277,529,253,522" />
+    <area alt="" title="" href="#" shape="poly" coords="317,303,317,331,313,353,315,367,314,390,314,411,314,426,314,435,325,441,330,435,339,431,349,425,358,419,365,415,373,411,386,407,393,405,402,403,413,402,417,399,425,398,431,395,431,371,429,347,429,329,429,309,418,301,405,295,395,289,389,287,381,279,375,273,365,271,346,275,338,283,331,291" />
+   
+</map>

@@ -1,5 +1,8 @@
 {
   "name": "my-own-ember-app",
   "dependencies": {
+    "imageHotspot": "https://github.com/stowball/jQuery-rwdImageMaps",
+    "jquerypic": "https://github.com/LaminSanneh/sitepoint-jquerypic.git#faulty",
+    "imgHotspotHighlighter" : "https://github.com/jamietre/ImageMapster"
   }
 }

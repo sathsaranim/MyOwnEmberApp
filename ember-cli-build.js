@@ -20,5 +20,11 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  // app.import("bower_components/imgHotspotHighlighter/jquery.imagemapster.js");
+  app.import("bower_components/imageHotspot/jquery.rwdImageMaps.min.js");
+  app.import("bower_components/jquerypic/js/jquerypic.js");
+  app.import("bower_components/jquerypic/styles/app.css");
+  
+  
   return app.toTree();
 };
